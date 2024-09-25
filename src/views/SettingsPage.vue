@@ -1,3 +1,3 @@
 <template>
-    Card Details
+    Settings
 </template>
