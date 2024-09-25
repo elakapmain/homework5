@@ -27,7 +27,8 @@
   "tailwindCSS.includeLanguages": {
     "javascript": "javascript",
     "plaintext": "html",
-    "vue": "html"
+    "vue": "html",
+    "css": "css"
   },
   "tailwindCSS.lint.cssConflict": "error",
   "tailwindCSS.lint.recommendedVariantOrder": "error",
