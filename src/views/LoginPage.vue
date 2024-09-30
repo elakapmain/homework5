@@ -1,15 +1,15 @@
 <template>
-    <form class="" @submit.prevent>
+    <form class="m-10" @submit.prevent>
         <div>
-            <label for="username" class="">Username</label>
-            <input id="username" v-model="username" type="text" placeholder="Username">
+            <label for="username" class="block mb-2 font-bold">Username</label>
+            <input class="p-2 border-2 rounded-lg" id="username" v-model="username" type="text" placeholder="Username">
         </div>
         <div>
-            <label for="password" class="">Password</label>
-            <input id="password" v-model="password" type="password" placeholder="Password">
+            <label for="password" class="block mb-2 font-bold">Password</label>
+            <input class="p-2 border-2 rounded-lg" id="password" v-model="password" type="password" placeholder="Password">
         </div>
 
-        <button @click="logUserIn" class="">LOGIN</button>
+        <button @click="logUserIn" class="bg-green-500 mt-4 px-4 py-2 rounded-lg hover:bg-green-800 hover:text-white">LOGIN</button>
 
     </form>
 </template>
