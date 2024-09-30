@@ -5,7 +5,7 @@
             <input class="p-2 border-2 rounded-lg" id="username" v-model="username" type="text" placeholder="Username">
         </div>
         <div>
-            <label for="password" class="block mb-2 font-bold">Password</label>
+            <label for="password" class="mt-4 block mb-2 font-bold">Password</label>
             <input class="p-2 border-2 rounded-lg" id="password" v-model="password" type="password" placeholder="Password">
         </div>
 
